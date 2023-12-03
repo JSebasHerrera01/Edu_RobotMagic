@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!-- Definir colores personalizados para niños -->
+    <color name="colorPrimary">@color/purple_700</color> <!-- Color primario -->
+    <color name="colorPrimaryDark">@color/purple_200</color> <!-- Color primario oscuro -->
+    <color name="colorAccent">@color/purple_700</color> <!-- Color de acento -->
+
+    <style name="Theme.RobotMagic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color de la barra de acción -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Color de los elementos de acento, como los botones -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Otros ajustes de estilo que puedes personalizar según tus necesidades -->
+
+        <!-- Color de fondo de la barra de estado -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Color de fondo de la barra de navegación -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Estilo de la ventana emergente flotante (si lo usas) -->
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RobotMagicBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Color de la barra de acción -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Color de los elementos de acento, como los botones -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Otros ajustes de estilo que puedes personalizar según tus necesidades -->
+
+        <!-- Color de fondo de la barra de estado -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Color de fondo de la barra de navegación -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Estilo de la ventana emergente flotante (si lo usas) -->
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RobotMagic.NoActionBar">
+        <item name="windowActionBar">@color/purple_700</item>
+        <item name="windowNoTitle">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.RobotMagic.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RobotMagic.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
